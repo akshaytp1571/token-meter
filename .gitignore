@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local runtime state — never commit these
+token_meter.json
+token_meter_ledger.db
+token_meter_adapters.json
+.token-meter-alert.json
+*.log
+
+# OS noise
+.DS_Store
+Thumbs.db
